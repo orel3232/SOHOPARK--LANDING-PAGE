@@ -37,6 +37,7 @@ export default function CTA() {
       icon: Phone,
       label: 'טלפון',
       value: '073-2820510',
+      // ✅ קישור ישיר לטלפון
       href: 'tel:0732820510',
       target: undefined,
       rel: undefined,
@@ -45,6 +46,7 @@ export default function CTA() {
       icon: Mail,
       label: 'דוא"ל',
       value: 'info@sohopark.co.il',
+      // ✅ קישור ישיר לאימייל עם הנושא
       href: 'mailto:info@sohopark.co.il?subject=פנייה מהאתר',
       target: undefined,
       rel: undefined,
@@ -52,8 +54,9 @@ export default function CTA() {
     {
       icon: MapPin,
       label: 'כתובה',
-      value: 'ההחזקה ל.ת.ח, צפון לוד',
-      href: 'https://www.google.com/maps/search/?api=1&query=ההגנה+6+תל+אביב',
+      value: 'הכתובה 2, א.ת. צפוני לוד',
+      // ✅ קישור ל-Google Maps עם הכתובה המדויקת
+      href: 'https://www.google.com/maps/search/הכתובה+2+א.ת.+צפוני+לוד',
       target: '_blank',
       rel: 'noopener noreferrer',
     },
@@ -158,7 +161,7 @@ export default function CTA() {
 
           {/* Contact Info */}
           <div className="flex flex-col gap-6 md:gap-8">
-            {/* Info cards */}
+            {/* Info cards - 3 כרטיסיות עם קישורים */}
             {contactInfo.map((info, index) => {
               const Icon = info.icon;
               return (
