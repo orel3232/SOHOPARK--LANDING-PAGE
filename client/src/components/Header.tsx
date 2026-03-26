@@ -16,7 +16,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-primary text-primary-foreground sticky top-0 z-50 shadow-lg">
+    <header className="bg-foreground text-background sticky top-0 z-50 shadow-lg">
       <div className="container flex items-center justify-between h-20 md:h-24">
         {/* Logo */}
         <div className="flex items-center gap-2 md:gap-3">
@@ -33,7 +33,7 @@ export default function Header() {
             <a
               key={item.label}
               href={item.href}
-              className="text-primary-foreground hover:text-background transition-colors duration-300 font-mono font-medium"
+              className="text-background hover:text-primary transition-colors duration-300 font-mono font-medium"
             >
               {item.label}
             </a>
@@ -41,14 +41,14 @@ export default function Header() {
         </nav>
 
         {/* CTA Button - Desktop */}
-        <button className="hidden md:block bg-background text-primary px-8 py-4 font-mono font-bold text-lg transition-all duration-300 hover:shadow-lg">
-          תיאום פגישה בחינם
+        <button className="hidden md:block cta-button">
+          בקשת הצעה
         </button>
 
         {/* Mobile Menu Toggle */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden text-primary-foreground hover:text-background transition-colors"
+          className="md:hidden text-background hover:text-primary transition-colors"
           aria-label="Toggle menu"
         >
           {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -63,14 +63,14 @@ export default function Header() {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-primary-foreground hover:text-background transition-colors font-mono font-medium py-2"
+                className="text-background hover:text-primary transition-colors font-mono font-medium py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.label}
               </a>
             ))}
-            <button className="bg-background text-primary px-8 py-4 font-mono font-bold text-lg w-full mt-2 transition-all duration-300 hover:shadow-lg">
-              תיאום פגישה בחינם
+            <button className="cta-button w-full mt-2">
+              בקשת הצעה
             </button>
           </nav>
         </div>
