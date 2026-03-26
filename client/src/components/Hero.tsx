@@ -41,13 +41,12 @@ export default function Hero() {
               חברת סוהו פארק מתמחה בשיפוץ ושדרוג של מתקני חניה רובוטיים מכל הסוגים.
             </p>
 
-            {/* CTA Button */}
+            {/* CTA Button - תיאום פגישה בחינם → WhatsApp 073-2820510 */}
             <div className="pt-4">
               <a 
                 href="https://wa.me/0732820510?text=היי,%20אני%20מעוניין%20לתאום%20פגישה%20בחינם"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block"
                 style={{ textDecoration: 'none' }}
               >
                 <button className="cta-button">
