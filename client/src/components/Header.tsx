@@ -40,10 +40,18 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* CTA Button - Desktop */}
-        <button className="hidden md:block cta-button">
-          בקשת הצעה
-        </button>
+        {/* CTA Button - Desktop - לעוד פרטים → https://www.sohopark.co.il/ */}
+        <a 
+          href="https://www.sohopark.co.il/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden md:block"
+          style={{ textDecoration: 'none' }}
+        >
+          <button className="cta-button">
+            לעוד פרטים
+          </button>
+        </a>
 
         {/* Mobile Menu Toggle */}
         <button
@@ -69,9 +77,16 @@ export default function Header() {
                 {item.label}
               </a>
             ))}
-            <button className="cta-button w-full mt-2">
-              בקשת הצעה
-            </button>
+            <a 
+              href="https://www.sohopark.co.il/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+              <button className="cta-button w-full mt-2">
+                לעוד פרטים
+              </button>
+            </a>
           </nav>
         </div>
       )}
