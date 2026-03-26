@@ -152,7 +152,7 @@ export default function CTA() {
               type="submit"
               className="cta-button bg-primary text-primary-foreground w-full mt-4"
             >
-              {submitted ? '✓ נשלח בהצלחה!' : 'שלח בקשה'}
+              {submitted ? '✓ נשלח בהצלחה!' : 'לעוד פרטים'}
             </button>
           </form>
 
