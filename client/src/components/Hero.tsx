@@ -15,8 +15,8 @@ export default function Hero() {
         backgroundAttachment: 'fixed'
       }}
     >
-      {/* Overlay for better text readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/40"></div>
+      {/* Overlay for better text readability - stronger overlay to show image better */}
+      <div className="absolute inset-0 bg-gradient-to-r from-background/75 via-background/60 to-background/20"></div>
       
       <div className="container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -48,7 +48,7 @@ export default function Hero() {
             </div>
 
             {/* Trust indicators */}
-            <div className="flex gap-6 md:gap-8 pt-4 border-t-2 border-primary mt-4">
+            <div className="flex gap-6 md:gap-8 pt-4 mt-4">
               <div>
                 <p className="text-3xl md:text-4xl font-mono font-bold text-primary">24/7</p>
                 <p className="text-sm text-muted-foreground font-mono">זמינות מלאה</p>
