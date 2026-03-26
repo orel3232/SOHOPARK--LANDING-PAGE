@@ -71,8 +71,8 @@ export default function WhyUs() {
           {/* Image - Right side */}
           <div>
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/parking-system-1_aa660507.jpg"
-              alt="מערכת חנייה רובוטית מקצועית"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/parking-hero_084a3197.jpg"
+              alt="מכפיל חנייה רובוטי מודרני"
               className="w-full h-auto object-cover shadow-lg border-4 border-primary"
             />
           </div>

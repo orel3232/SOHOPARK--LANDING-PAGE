@@ -12,22 +12,14 @@ export default function Hero() {
           {/* Image - Left side */}
           <div className="order-2 lg:order-1">
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/parking-hero_084a3197.jpg"
-              alt="מכפיל חנייה רובוטי מודרני"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/ElvzQPugOoJZ_098ffa8c.jpg"
+              alt="מערכת חנייה רובוטית מקצועית"
               className="w-full h-auto object-cover shadow-lg border-4 border-primary"
             />
           </div>
 
           {/* Text - Right side */}
           <div className="order-1 lg:order-2 flex flex-col gap-6 md:gap-8">
-            {/* Logo accent */}
-            <div className="flex items-center gap-3 mb-2">
-              <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/pasted_file_FQKfy7_image_02674a17.png"
-                alt="SohoPark Logo"
-                className="h-8 md:h-10 w-auto"
-              />
-            </div>
             {/* Accent line */}
             <div className="accent-line"></div>
 
@@ -38,18 +30,18 @@ export default function Hero() {
 
             {/* Subheadline */}
             <p className="text-lg md:text-xl text-muted-foreground font-mono font-medium">
-              טכנולוגיה מתקדמת, בטיחות מוחלטת, שירות 24/7
+              בניינים שלמים תלויים במתקן חניה אחד
             </p>
 
             {/* Description */}
             <p className="text-base md:text-lg text-foreground leading-relaxed">
-              אנחנו מומחים בשדרוג ותחזוקה של מכפילי חנייה מכל הסוגים. עם ניסיון רב שנים בתעשייה, אנחנו מבטיחים שמערכת החנייה שלך תעבור שיפוץ קפדני ותמשיך לעבוד בצורה אופטימלית לשנים רבות קדימה.
+              כשהוא עובד חלק - כולם מרוצים. כשהוא מתקלקל או עובד לאט - כולם סובלים. חברת סוהו פארק מתמחה בשיפוץ ושדרוג של מתקני חניה רובוטיים מכל הסוגים.
             </p>
 
             {/* CTA Button */}
             <div className="pt-4">
               <button className="cta-button">
-                בקשת בדיקה חינם
+                תיאום פגישה בחינם
               </button>
             </div>
 
