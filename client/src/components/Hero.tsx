@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section className="bg-background py-12 md:py-20 lg:py-28">
       <div className="container">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start lg:items-center">
           {/* Image - Left side */}
           <div className="order-2 lg:order-1">
             <img
