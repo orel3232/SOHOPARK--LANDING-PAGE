@@ -38,18 +38,24 @@ export default function CTA() {
       label: 'טלפון',
       value: '073-2820510',
       href: 'tel:0732820510',
+      target: undefined,
+      rel: undefined,
     },
     {
       icon: Mail,
       label: 'דוא&quot;ל',
       value: 'info@sohopark.co.il',
-      href: 'mailto:info@sohopark.co.il',
+      href: 'mailto:info@sohopark.co.il?subject=פנייה+מהאתר',
+      target: undefined,
+      rel: undefined,
     },
     {
       icon: MapPin,
       label: 'כתובה',
       value: 'ההחזקה ל.ת.ח, צפון לוד',
-      href: '#',
+      href: 'https://www.google.com/maps/search/?api=1&query=ההגנה+6+תל+אביב',
+      target: '_blank',
+      rel: 'noopener noreferrer',
     },
   ];
 
@@ -159,7 +165,10 @@ export default function CTA() {
                 <a
                   key={index}
                   href={info.href}
-                  className="industrial-card bg-foreground border-2 border-primary text-background hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                  target={info.target}
+                  rel={info.rel}
+                  className="industrial-card bg-foreground border-2 border-primary text-background hover:bg-primary hover:text-primary-foreground transition-all duration-300 cursor-pointer no-underline"
+                  style={{ textDecoration: 'none', color: 'inherit' }}
                 >
                   <div className="flex items-start gap-4">
                     <Icon className="w-8 h-8 md:w-10 md:h-10 flex-shrink-0 mt-1" strokeWidth={1.5} />
