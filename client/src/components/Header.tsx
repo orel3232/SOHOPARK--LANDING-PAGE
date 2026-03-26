@@ -21,9 +21,9 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2 md:gap-3">
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/pasted_file_FQKfy7_image_02674a17.png"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/sohopark-logo-white-v2-Kt2kv4orvvNJJF8rdVdyyq.webp"
             alt="SohoPark Logo"
-            className="h-10 md:h-12 w-auto"
+            className="h-8 md:h-10 w-auto"
           />
         </div>
 
