@@ -43,9 +43,17 @@ export default function Hero() {
 
             {/* CTA Button */}
             <div className="pt-4">
-              <button className="cta-button">
-                תיאום פגישה בחינם
-              </button>
+              <a 
+                href="https://wa.me/0732820510?text=היי,%20אני%20מעוניין%20לתאום%20פגישה%20בחינם"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block"
+                style={{ textDecoration: 'none' }}
+              >
+                <button className="cta-button">
+                  תיאום פגישה בחינם
+                </button>
+              </a>
             </div>
 
             {/* Trust indicators */}
