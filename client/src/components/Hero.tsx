@@ -1,27 +1,25 @@
 /**
  * Hero Section - Industrial Precision Design
- * Features: Background image with text overlay, main headline, subheadline, CTA
- * Layout: Text centered with background image
- * Image: Professional robotic parking system as background
+ * Features: Large hero image, main headline, subheadline, CTA
+ * Layout: Asymmetric - image on left, text on right
+ * Image: High-key robotic parking system
  */
 export default function Hero() {
   return (
-    <section 
-      className="py-16 md:py-24 lg:py-32 bg-background relative overflow-hidden"
-      style={{
-        backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/ElvzQPugOoJZ_098ffa8c.jpg)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center right',
-        backgroundAttachment: 'fixed'
-      }}
-    >
-      {/* Overlay for better text readability - stronger overlay to show image better */}
-      <div className="absolute inset-0 bg-gradient-to-r from-background/75 via-background/60 to-background/20"></div>
-      
-      <div className="container relative z-10">
+    <section className="bg-background py-12 md:py-20 lg:py-28">
+      <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          {/* Text - Left side */}
-          <div className="order-1 flex flex-col gap-6 md:gap-8">
+          {/* Image - Left side */}
+          <div className="order-2 lg:order-1">
+            <img
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/ElvzQPugOoJZ_098ffa8c.jpg"
+              alt="מערכת חנייה רובוטית מקצועית"
+              className="w-full h-auto object-cover shadow-lg border-4 border-primary"
+            />
+          </div>
+
+          {/* Text - Right side */}
+          <div className="order-1 lg:order-2 flex flex-col gap-6 md:gap-8">
             {/* Accent line */}
             <div className="accent-line"></div>
 
@@ -48,7 +46,7 @@ export default function Hero() {
             </div>
 
             {/* Trust indicators */}
-            <div className="flex gap-6 md:gap-8 pt-4 mt-4">
+            <div className="flex gap-6 md:gap-8 pt-4 border-t-2 border-primary mt-4">
               <div>
                 <p className="text-3xl md:text-4xl font-mono font-bold text-primary">24/7</p>
                 <p className="text-sm text-muted-foreground font-mono">זמינות מלאה</p>

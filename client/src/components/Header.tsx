@@ -23,7 +23,7 @@ export default function Header() {
           <img
             src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/pasted_file_FQKfy7_image_02674a17.png"
             alt="SohoPark Logo"
-            className="h-8 md:h-10 w-auto"
+            className="h-10 md:h-12 w-auto"
           />
         </div>
 
