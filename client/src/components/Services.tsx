@@ -16,7 +16,7 @@ export default function Services() {
     {
       icon: Wrench,
       title: 'שדרוג מערכות',
-      description: 'שדרוג מערכות בקרה וקריאה לטכנולוגיה המתקדמת ביותר בשוק.',
+      description: 'שדרוג מערכות בקרה וחיישנים לטכנולוגיה המתקדמת ביותר בשוק.',
     },
     {
       icon: AlertCircle,
