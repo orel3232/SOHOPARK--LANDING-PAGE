@@ -43,9 +43,9 @@ export default function CTA() {
     },
     {
       icon: Mail,
-      label: 'דוא&quot;ל',
+      label: 'דוא"ל',
       value: 'info@sohopark.co.il',
-      href: 'mailto:info@sohopark.co.il?subject=פנייה+מהאתר',
+      href: 'mailto:info@sohopark.co.il?subject=פנייה מהאתר',
       target: undefined,
       rel: undefined,
     },
@@ -99,7 +99,7 @@ export default function CTA() {
             {/* Email input */}
             <div>
               <label htmlFor="email" className="block text-sm font-mono font-bold mb-2 text-background">
-                דוא&quot;ל
+                דוא"ל
               </label>
               <input
                 type="email"
@@ -109,7 +109,7 @@ export default function CTA() {
                 onChange={handleChange}
                 required
                 className="w-full px-4 py-3 bg-background text-foreground border-2 border-primary font-mono focus:outline-none focus:ring-2 focus:ring-primary"
-                placeholder="הכנס את כתובת הדוא&quot;ל"
+                placeholder="הכנס את כתובת הדוא"ל"
               />
             </div>
 
@@ -152,7 +152,7 @@ export default function CTA() {
               type="submit"
               className="cta-button bg-primary text-primary-foreground w-full mt-4"
             >
-              {submitted ? '✓ נשלח בהצלחה!' : 'לעוד פרטים'}
+              {submitted ? '✓ נשלח בהצלחה!' : 'שלח בקשה'}
             </button>
           </form>
 
@@ -167,7 +167,7 @@ export default function CTA() {
                   href={info.href}
                   target={info.target}
                   rel={info.rel}
-                  className="industrial-card bg-foreground border-2 border-primary text-background hover:bg-primary hover:text-primary-foreground transition-all duration-300 cursor-pointer no-underline"
+                  className="industrial-card bg-foreground border-2 border-primary text-background hover:bg-primary hover:text-primary-foreground transition-all duration-300 cursor-pointer"
                   style={{ textDecoration: 'none', color: 'inherit' }}
                 >
                   <div className="flex items-start gap-4">
