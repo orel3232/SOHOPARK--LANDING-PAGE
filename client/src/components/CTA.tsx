@@ -36,19 +36,19 @@ export default function CTA() {
     {
       icon: Phone,
       label: 'טלפון',
-      value: '03-1234567',
-      href: 'tel:0312345678',
+      value: '073-2820510',
+      href: 'tel:0732820510',
     },
     {
       icon: Mail,
-      label: 'דוא"ל',
-      value: 'info@parking-systems.co.il',
-      href: 'mailto:info@parking-systems.co.il',
+      label: 'דוא&quot;ל',
+      value: 'info@sohopark.co.il',
+      href: 'mailto:info@sohopark.co.il',
     },
     {
       icon: MapPin,
-      label: 'כתובת',
-      value: 'תל אביב, ישראל',
+      label: 'כתובה',
+      value: 'ההחזקה ל.ת.ח, צפון לוד',
       href: '#',
     },
   ];
@@ -62,10 +62,10 @@ export default function CTA() {
             <div className="h-1 w-12 bg-primary"></div>
           </div>
           <h2 className="text-background mb-4">
-            צור קשר עכשיו
+            פרטי תחזוקה
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            קבל בדיקה חינם והצעה מקצועית לשדרוג מערכת החנייה שלך
+            השאר את פרטים או מלא בטופס בשעות הפעילות שלנו
           </p>
         </div>
 
@@ -179,10 +179,13 @@ export default function CTA() {
             {/* Additional info */}
             <div className="bg-primary text-primary-foreground p-6 md:p-8 border-2 border-primary">
               <h3 className="text-xl md:text-2xl font-mono font-bold mb-3">
-                זמינות 24/7
+                שעות פעילות
               </h3>
-              <p className="text-base leading-relaxed">
-                כי כל שעה היא קריטית, אנחנו כאן בכל עת. צוות הטכנאים שלנו זמין 24 שעות ביום, 7 ימים בשבוע לטיפול בכל בעיה דחופה.
+              <p className="text-base leading-relaxed mb-3">
+                א-ה בן השעות 09:00-17:00
+              </p>
+              <p className="text-sm leading-relaxed">
+                אנו כאן גם בשעות השירות שלנו כדי לטיפול בכל שאלות טכניות בזמן הפעילות.
               </p>
             </div>
           </div>

@@ -20,7 +20,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              שדרוג ותחזוקה מקצועיים של מכפילי חנייה רובוטיים עם ניסיון של עשר שנים בתעשייה.
+              שדרוג ותחזוקה מקצועיים של מכפילי חנייה רובוטיים. SohoPark - מומחים בתחום מכפילי החנייה.
             </p>
           </div>
 
@@ -51,17 +51,17 @@ export default function Footer() {
             <h4 className="font-mono font-bold text-lg mb-4">יצירת קשר</h4>
             <ul className="space-y-2 text-sm">
               <li className="text-muted-foreground">
-                <a href="tel:0312345678" className="hover:text-primary transition-colors">
-                  03-1234567
+                <a href="tel:0732820510" className="hover:text-primary transition-colors">
+                  073-2820510
                 </a>
               </li>
               <li className="text-muted-foreground">
-                <a href="mailto:info@parking-systems.co.il" className="hover:text-primary transition-colors">
-                  info@parking-systems.co.il
+                <a href="mailto:info@sohopark.co.il" className="hover:text-primary transition-colors">
+                  info@sohopark.co.il
                 </a>
               </li>
               <li className="text-muted-foreground">
-                תל אביב, ישראל
+                ההחזקה ל.ת.ח, צפון לוד
               </li>
             </ul>
           </div>
@@ -73,7 +73,7 @@ export default function Footer() {
         {/* Bottom footer */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <p>
-            &copy; {currentYear} Parking Systems. כל הזכויות שמורות.
+            &copy; {currentYear} SohoPark. כל הזכויות שמורות.
           </p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-primary transition-colors">
