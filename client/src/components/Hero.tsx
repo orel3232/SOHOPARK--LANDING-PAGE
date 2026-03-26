@@ -20,6 +20,14 @@ export default function Hero() {
 
           {/* Text - Right side */}
           <div className="order-1 lg:order-2 flex flex-col gap-6 md:gap-8">
+            {/* Logo accent */}
+            <div className="flex items-center gap-3 mb-2">
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/pasted_file_FQKfy7_image_02674a17.png"
+                alt="SohoPark Logo"
+                className="h-8 md:h-10 w-auto"
+              />
+            </div>
             {/* Accent line */}
             <div className="accent-line"></div>
 

@@ -13,10 +13,11 @@ export default function Footer() {
           {/* Company info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary flex items-center justify-center">
-                <span className="text-background font-mono font-bold">P</span>
-              </div>
-              <h3 className="font-mono font-bold text-lg">PARKING SYSTEMS</h3>
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/pasted_file_FQKfy7_image_02674a17.png"
+                alt="SohoPark Logo"
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
               שדרוג ותחזוקה מקצועיים של מכפילי חנייה רובוטיים עם ניסיון של עשר שנים בתעשייה.

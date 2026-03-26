@@ -19,15 +19,12 @@ export default function Header() {
     <header className="bg-foreground text-background sticky top-0 z-50 shadow-lg">
       <div className="container flex items-center justify-between h-20 md:h-24">
         {/* Logo */}
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 md:w-12 md:h-12 bg-primary flex items-center justify-center">
-            <span className="text-background font-mono font-bold text-lg md:text-xl">P</span>
-          </div>
-          <div className="hidden md:block">
-            <h1 className="text-background font-mono font-bold text-lg md:text-xl leading-tight">
-              PARKING<br />SYSTEMS
-            </h1>
-          </div>
+        <div className="flex items-center gap-2 md:gap-3">
+          <img
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663402872178/b5TRz8zpT4CPr8qftg8LMt/pasted_file_FQKfy7_image_02674a17.png"
+            alt="SohoPark Logo"
+            className="h-10 md:h-12 w-auto"
+          />
         </div>
 
         {/* Desktop Navigation */}
